@@ -15,11 +15,6 @@ body {
   --button-cta-color: #3882f6;
 }
 
-.page-container {
-  /* margin: 0 auto;
-  width: 80%; */
-}
-
 /* HERO-SECTION */
 .nav-header {
   display: flex;
@@ -29,7 +24,7 @@ body {
   width: 80%x;
 }
 
-ul {
+.nav-header ul {
   display: flex;
   gap: 15px;
   list-style: none;
@@ -76,9 +71,27 @@ button {
 }
 
 /* RANDOM SECTION */
+.random-information-section {
+  padding: 30px 10% 80px 10%;
+}
+
 ul img {
   width: 150px;
   height: auto;
 }
 
-random
+.random-info-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+}
+
+h2 {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* QUOTE SECTION */
